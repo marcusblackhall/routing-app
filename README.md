@@ -33,10 +33,11 @@ In app.component.ys add the router-outlet tag.
 
 `  <ul class="nav nav-tabs">
         <li role="presentation" class="active"><a routerLink="/">Home</a></li>
-        <li role="presentation"><a routerLink="/servers">Servers</a></li>
+        <li role="presentation"
+        ><a routerLink="/servers">Servers</a></li>
         <li role="presentation"><a [routerLink]='["/users"]'>Users</a></li>
       </ul>`
 
-      
+
 
 
